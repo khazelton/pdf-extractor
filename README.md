@@ -90,9 +90,10 @@ columns, and form fields.
 ## Contents
 
 ```
-pdf-extractor/
+pdf-extractor/  (v0.1.0)
 ├── SKILL.md              # skill definition (frontmatter + instructions)
 ├── README.md             # this file
+├── LICENSE               # MIT license
 ├── requirements.txt      # Python dependencies
 ├── scripts/
 │   └── extract.py        # the extractor CLI

@@ -1,5 +1,6 @@
 ---
 name: pdf-extractor
+version: 0.1.0
 description: Extract text, tables, and form-field values from PDF files. Use when the user wants to pull data out of a PDF, fill a PDF form, or convert PDF content to text/markdown.
 ---
 
