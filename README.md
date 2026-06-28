@@ -64,6 +64,29 @@ python scripts/extract.py <file.pdf> --mode tables \
 Coordinates are in PDF points. Find them with pdfplumber's
 `page.extract_words()` (each word has `x0`/`x1`/`top`/`bottom`).
 
+## Example
+
+Extract the bordered table from the bundled sample (run from the skill root):
+
+```bash
+python scripts/extract.py examples/sample.pdf --mode tables --table-strategy lines
+```
+
+```json
+[
+  {"page": 1, "index": 0, "rows": [
+    ["Product", "Qty", "Revenue"],
+    ["Widget", "120", "$1,440"],
+    ["Gadget", "75", "$1,125"],
+    ["Gizmo", "40", "$800"]
+  ]}
+]
+```
+
+See [`examples/README.md`](examples/README.md) for runnable commands and
+expected output covering every mode — plain text, borderless tables with pinned
+columns, and form fields.
+
 ## Contents
 
 ```
