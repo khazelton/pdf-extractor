@@ -1,5 +1,7 @@
 # pdf-extractor skill
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Extract text, tables, and form-field values from PDF files. Bordered tables,
 borderless (whitespace-aligned) tables, and fillable AcroForm fields are all
 supported.
@@ -78,3 +80,7 @@ pdf-extractor/
     ├── sample.pdf        # text + bordered + borderless tables
     └── form.pdf          # two fillable form fields
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
